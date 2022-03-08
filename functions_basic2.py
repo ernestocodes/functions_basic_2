@@ -26,9 +26,10 @@ def values_greater_than_second(list):
     for x in list:
         if x > list[1]:
             new_list.append(x)
+    print(len(new_list))
     return new_list
 
-print(values_greater_than_second([3]))
+print(values_greater_than_second([5,2,3,2,1,4]))
 
 def length_and_value(size,value):
     new_list =[]
